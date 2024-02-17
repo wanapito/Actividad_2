@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Breaking bad;
+  font-family: "Breaking bad";
   src: url(fonts/Breaking_Bad.ttf);
 }
 
@@ -78,7 +78,7 @@ td {
   background-image: url(../img/fondo.jpg);
   background-attachment: fixed;
   background-size: cover;
-  font-family: Breaking bad;
+  font-family: "Breaking bad";
   
 }
 
