@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Breaking bad;
+  src: url(../font/Breaking_bad.ttf);
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 10px;
+}
+
+fieldset {
+  text-align: justify;
+}
+
+table {
+  margin: 0 auto;
+  background-color: #2b2d23;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+b {
+  font-size: 14px;
+}
+
+td {
+  column-gap: 1;
+  row-gap: 1;
+  border: 5px #2b2d23 solid;
+  height: 82px;
+  width: 85px;
+}
+#bloque{
+  height: 175px;
+  width: 85px;
+}
+.verdeclaro {
+  background-color: #d4e976;
+}
+
+.verdelima {
+  background-color: #b8db1d;
+}
+
+.verdepalido {
+  background-color: #edf4c8;
+}
+
+.moradito {
+  background-color: #ab8fcc;
+}
+
+.verdepardo {
+  background-color: #85a219;
+}
+
+.verdepardisimo {
+  background-color: #818e4f;
+}
+
+.verdegrisaceo {
+  background-color: #bdc39e;
+}
+
+.otroverde {
+  background-color: #c5e442;
+}
+
+.ultimoverde {
+  background-color: #87a31a;
+}
+
+#index {
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Breaking bad;
+  
+}
+
+#formulario {
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  
+ 
+}
+
+#TablaPeriodica {
+ 
+  background-color: #0c3e11;
+}
+
+#cuadrotablapequeña {
+  background-color: #c4bf49;
+  
+}
+
+#H1-index {
+  color: white;
+}
+
+#logo {
+  height: 200 px;
+  width: 200px;
+}
+
+#poster {
+  border: 10px outset brown;
+  border-radius: 22px;
+  height: 300px;
+  width: 700px;
+}
+
+#etiquetadoble {
+  height: 146px;
+  width: 85px;
+}

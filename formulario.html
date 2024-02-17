@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body id="formulario">
+    <h1>Breaking Bad – Que comience el juego!</h1>
+    <form
+      name="formulario"
+      action="raul.rodriguez@proeducaglobal.com"
+      method="post"
+    >
+      <fieldset>
+        <fieldset>
+          <legend><b>Datos Personales</b></legend>
+          <b>Nombre</b>
+          <input
+            type="text"
+            name="nombre"
+            label="nombre"
+            placeholder="Nombre"
+            required
+          />
+          <b>Apellido</b>
+          <input
+            type="text"
+            name="apellido1"
+            label="apellido1"
+            placeholder="Apellido 1"
+            required
+          />
+          <input
+            type="text"
+            name="apellido2"
+            label="apellido2"
+            placeholder="Apellido 2"
+            required
+          />
+          <br />
+          <b>Dni</b>
+          <input type="text" name="DNI" label="DNI" placeholder="DNI" /> <b>Email</b>
+          <input
+            type="email"
+            name="email"
+            label="email"
+            placeholder="example@exapmple.com"
+            required
+          />
+          <br />
+          <b>Fecha de nacimiento</b>
+          <input
+            type="date"
+            name="Fecha nacimiento"
+            placeholder="Fecha de nacimiento"
+            min="01-01-1900"
+          />
+          <b>Sexo</b>
+          <input type="radio" name="sexo" value="1" /><b>Hombre</b>
+          <input type="radio" name="sexo" value="1" /><b>Mujer</b>
+        </fieldset>
+        <fieldset>
+          <legend><b>Dirección</b></legend>
+          <b>Calle</b>
+          <input type="text" name="calle" label="calle" placeholder="Calle" />
+         <b> Numero</b>
+          <input
+            type="text"
+            name="numero"
+            label="numero"
+            placeholder="Numero"
+          />
+          <b>Piso</b>
+          <input type="text" name="piso" label="piso" placeholder="Piso" />
+          <br />
+          <b>Código postal</b>
+          <input
+            type="text"
+            name="código postal"
+            label="código postal"
+            placeholder="Código postal"
+          />
+          <b>Ciudad</b>
+          <input
+            type="text"
+            name="Ciudad"
+            label="ciudad"
+            placeholder="Ciudad"
+          />
+        </fieldset>
+        <fieldset>
+          <legend><b>Actores preferidos</b></legend>
+          <select name="actores" id="">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personajes</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend><b>Comentarios</b></legend>
+          <textarea
+            placeholder="Escribe aquí lo que quieras"
+            id=""
+            cols="50"
+            rows="10"
+          ></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend><b>Adjuntos</b></legend>
+          <input
+            type="file"
+            name="Archivos"
+            accept=".pdf, jpg, .doc"
+            multiple
+          />
+        </fieldset>
+      </fieldset>
+      <br />
+      <fieldset align="center">
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
